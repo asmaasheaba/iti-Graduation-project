@@ -1,0 +1,78 @@
+.one{
+    
+    background-color:rgb(231, 231, 231);
+    color: black;
+    width: 100% !important;
+    height:105vh  !important;
+
+}
+
+.leftdiv{
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px !important;
+    
+   
+
+}
+.details h3{
+    text-align: right;
+    color:  #160D60;
+    padding: 0.5rem ;
+}
+.comments h5{
+    text-align: right;
+    color:  #160D60;
+}
+.comments p{
+    font-size:small;
+}
+.rightdiv  {
+    background-color:rgb(231, 231, 231);
+    border: 1;
+    border-radius: 20px !important;
+
+}
+.upp{
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px !important;
+    padding: 1rem !important;
+
+}
+.dowwn{
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px !important;
+    padding: 1rem !important;
+
+}
+.person{
+    border-radius: 50%;
+}
+.slidshow{
+    
+    border-radius: 20px;
+}
+.sliimg{
+    height: 60vh !important;
+}
+.contslide{
+    height: 80% !important;
+}
+.cont{
+    margin-left: 3rem !important;
+}
+.buttun{
+    color: white !important;
+    background-color: #160D60 !important;
+    margin-right: 2% !important;
+}
+input{
+    color: #17069b !important;
+    border: none;
+    border-radius: 20px;
+    padding: 1%;
+    background-color:rgb(231, 231, 231) ;
+}
+.slidimg{
+    width: 100% !important;
+    height: 50vh !important;
+}

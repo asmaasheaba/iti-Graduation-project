@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    direction: rtl;
+    font-family: "Cairo", sans-serif;
+    /* font-family: "poppins", sans-serif; */
+    font-size: 14px;
+    position: relative;
+    background-color: #F9F9F9;
+}
+
+/* slider */
+
+.home-slider {
+    top: 20px;
+    /* z-index: -10; */
+    margin-bottom: 60px;
+}
+
+.home-slider .carousel-indicators [data-bs-target] {
+    background-color: #939AB5;
+    border-radius: 8px;
+    height: 5px;
+}
+
+.home-slider .carousel-indicators .active {
+    background-color: #3a4c94;
+}
+
+.home-slider .carousel-indicators {
+    bottom: -40px;
+}
+
+.home-slider img {
+    height: 250px;
+    border-radius: 16px;
+}
+
+
+/* end slider */
+
+
+
+
+/* start categories */
+
+@media (max-width:768px) {
+
+    .categories .people-category,
+    .categories .company-category {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+
+
+.categories {
+    margin-bottom: 100px;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.categories .people-category,
+.categories .company-category {
+    border-radius: 10px;
+}
+
+.categories .people-category>h3,
+.categories .company-category>h3 {
+    color: #160d60;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.categories .people-category .category-offer,
+.categories .company-category .category-offer {
+    color: #3a4c94;
+    background-color: #F8F8F8;
+    border: 0;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.categories .people-category .category-offer:hover,
+.categories .company-category .category-offer:hover {
+    background-image: linear-gradient(#3a4c94 0%, #1D264A 100%);
+    color: #fff !important;
+    transform: scale(1.1);
+}
+
+.categories .people-category .category-offer:hover img,
+.categories .company-category .category-offer:hover img {
+    filter: grayscale(1) invert(1);
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.categories .company-category {
+    background-color: #D6D9E1;
+}
+
+.categories .company-category .category-offer {
+    background-color: #F8F8F8;
+}
+
+
+/* end categories */
+
+.bottom-navbar {
+    background-image: linear-gradient(207deg, #3a4c94 0%, #1D264A 100%);
+    color: #fff;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    height: 85px;
+}
+
+.bottom-navbar a {
+    color: #fff;
+}
